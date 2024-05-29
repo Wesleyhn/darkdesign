@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dark Design</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="icon" type="image/x-icon" href="./favicon.svg" />
+        <script src="./js/Gradient.js"></script>
+    </head>
+    <body>
+        <canvas id="gradient-canvas"> </canvas>
+        <header>
+            <div class="main-info">
+                <img src="./img/DARK-2.svg" />
+                <h1>Novidades em breve!</h1>
+                <p>Aguarde...</p>
+            </div>
+        </header>
+
+        <style>
+            #gradient-canvas {
+                --gradient-color-1: #000000;
+                --gradient-color-2: #ccff00;
+                --gradient-color-3: #e7ff8a;
+                --gradient-color-4: #303030;
+            }
+        </style>
+        <script>
+            var gradient = new Gradient();
+            gradient.initGradient("#gradient-canvas");
+        </script>
+    </body>
+</html>

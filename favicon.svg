@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.4 146.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cf0;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1" data-name="Camada 1">
+    <g id="Dark_Black" data-name="Dark Black">
+      <g id="DARK">
+        <path class="cls-1" d="M113.59,146.81h-25.32c-.55,0-1.47-.37-1.65-1.1l-.04-.11c-9.62-27.16-48.07-27.09-57.58.11h0c-.18.73-1.1,1.1-1.83,1.1H2.02c-1.65,0-2.39-1.1-1.84-2.2L55.78,1.1c.55-1.47,3.12-1.47,3.67,0l55.79,143.5c.55,1.1-.37,2.2-1.65,2.2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
