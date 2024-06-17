@@ -15,21 +15,36 @@
     </head>
 
     <body>
-        <canvas id="gradient-canvas"> </canvas>
-        <header>
-            <div class="main-info container">
-                <img src="./img/logo/DARK-2.svg" />
-                <h1 class="font-1-xxl">Novidades em breve!</h1>
-                <p class="font-1-xs">Aguarde...</p>
+        <header class="header-bg">
+            <div class="header container">
+                <a href="./"><img src="./img/logo/Logo.svg" alt=""></a>
+
+                <nav aria-label="primaria">
+                    <ul class="header-menu font-1-m cor-0">
+                        <li><a href="">Benefícios</a></li>
+                        <li><a href="">Trabalhos</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </nav>
+
             </div>
         </header>
+        
+        <main class="introducao-bg">
+            <canvas id="gradient-canvas"></canvas>
+            <div class="introducao container">
+                <p class="font-1-m-b cor-p2">Bem vindo(a) a Darkdesign.</p>
+                <h1 class="font-1-xxl">Solicite, acompanhe e desfrute de designs exclusivos<span class="cor-p2">.</span></h1>
+                <p class="font-1-m cor-4">A assinatura de design que impulsionará o crescimento dos seus negócios.</p>
+            </div>
+        </main>
 
         <style>
             #gradient-canvas {
-                --gradient-color-1: #000000;
+                --gradient-color-1: #111111;
                 --gradient-color-2: #ccff00;
-                --gradient-color-3: #e7ff8a;
-                --gradient-color-4: #303030;
+                --gradient-color-3: #718D00;
+                --gradient-color-4: #191F00;
             }
         </style>
         <script>

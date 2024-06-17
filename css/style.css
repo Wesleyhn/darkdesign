@@ -8,4 +8,5 @@
 
 /* Home */
 
-@import "../css/home/introducao.css"
+@import "../css/home/introducao.css";
+@import "../css/home/header.css";
