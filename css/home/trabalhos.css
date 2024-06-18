@@ -1,0 +1,53 @@
+.trabalhos-bg {
+  background: url("../../img/bg/presentation-bg\ 1.png") no-repeat;
+  background-size: cover;
+}
+
+.trabalhos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.trabalhos h1 {
+  max-width: 22ch;
+  margin: 20px auto;
+}
+
+.trabalhos p {
+  max-width: 50ch;
+  margin: 0 auto;
+}
+
+.lista-trabalhos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.lista-trabalhos ul li {
+  margin: 20px;
+  max-width: 200px;
+  position: relative;
+}
+
+.lista-trabalhos ul li::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--cor-10);
+  margin-top: 4px;
+  position: absolute;
+}
+
+@media (max-width:800px) {
+  .lista-trabalhos {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+}
