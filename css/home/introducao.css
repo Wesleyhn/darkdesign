@@ -5,7 +5,7 @@ main {
 canvas {
   position: absolute;
   z-index: -1;
-  top: -204px;
+  top: -140px;
 }
 
 .introducao {
@@ -19,7 +19,7 @@ canvas {
 }
 
 .introducao p {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .introducao h1 {
@@ -28,8 +28,8 @@ canvas {
 
 @media (max-width: 800px) {
   .introducao{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   canvas {
