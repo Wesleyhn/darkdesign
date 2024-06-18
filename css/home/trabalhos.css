@@ -45,6 +45,10 @@
   position: absolute;
 }
 
+.lista-trabalhos ul li:last-child::after{
+  display: none;
+}
+
 @media (max-width:800px) {
   .lista-trabalhos {
     grid-template-columns: 1fr;
