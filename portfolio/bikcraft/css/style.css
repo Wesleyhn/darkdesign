@@ -19,6 +19,11 @@
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
 
+/* Orçmaneto */
+
+@import "./orcamento/orcamento.css";
+
+
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
