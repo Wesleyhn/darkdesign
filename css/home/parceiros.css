@@ -1,80 +1,82 @@
 .parceiros-bg {
-  background-color: var(--cor-12);
+    background-color: var(--cor-12);
 }
 
 .parceiros {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .parceiros p {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .parceiros-slide {
-  display: flex;
-  gap: 40px;
-  margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
 }
 
 /* Logos Animation */
 
 @keyframes slide {
-  from {
-  transform: translateX(0);
-  } to {
-  transform: translateX(-100%);
-  }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .logos {
-  overflow: hidden;
-  padding: 20px 0px;
-  white-space: nowrap;
-  position: relative;
+    overflow: hidden;
+    padding: 20px 0px;
+    white-space: nowrap;
+    position: relative;
 }
 
-.logos-slide{
-  animation: slide 20s linear infinite;
-  display: flex;
-  align-items: center;
+.logos-slide {
+    display: flex;
+    align-items: center;
+    animation: slide 40s linear infinite;
+    width: 200%; /* Dobrar a largura para acomodar o conteúdo duplicado */
 }
 
 .logos-slide img {
-  max-width: 170px;
-  max-height: 50px;
-  margin: 0 20px;
-  display: inline;
+    max-width: 170px;
+    max-height: 50px;
+    margin: 0 20px;
+    display: inline;
 }
 
 .logos::before,
 .logos::after {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  background: linear-gradient(to left, rgba(0, 0, 0, 1),);
-  content: "";
-  z-index: 2;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 1));
+    content: "";
+    z-index: 2;
 }
 
 .logos::before {
-  left: 0;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--cor-12));
+    left: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--cor-12));
 }
 
 .logos::after {
-  right: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--cor-12));
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--cor-12));
 }
 
 @media (max-width: 800px) {
-  .logos::before,
-  .logos::after {
-    width: 100px;
-  }
-  .logos-slide{
-    animation: slide 10s linear infinite;
-  }
+    .logos::before,
+    .logos::after {
+        width: 100px;
+    }
+    .logos-slide {
+        animation: slide 20s linear infinite;
+    }
 }

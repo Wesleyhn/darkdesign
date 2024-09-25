@@ -1,44 +1,50 @@
 .sobre {
-  padding-top: 40px;
-  padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .info-sobre {
-  text-align: center;
+    text-align: center;
 }
 
 .info-sobre h1 {
-  max-width: 27ch;
-  margin: 20px auto;
+    max-width: 27ch;
+    margin: 20px auto;
 }
 
 .info-sobre img {
-  margin: 60px auto;
+    margin: 60px auto;
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
 }
 
 .card {
-  background-color: var(--cor-11);
-  padding: 40px 40px 40px 40px;
-  border-radius: 10px;
+    background-color: var(--cor-11);
+    padding: 20px 40px;
+    border: 1px solid; /* Define a borda */
+    border-image: linear-gradient(var(--cor-12), var(--cor-7)) 1;
+    border-radius: 15px;
+}
+
+.card:hover {
+    border-image: linear-gradient(var(--cor-12), var(--cor-p1)) 1;
 }
 
 .card img {
-  max-width: 40px;
-  margin-bottom: 20px;
+    max-width: 40px;
+    margin: 12px 0px;
 }
 
 .card h3 {
-  margin-bottom: 12px;
+    margin: 12px 0px;
 }
 
 @media (max-width: 800px) {
-  .card-container {
-    grid-template-columns: 1fr;
-  }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
 }
