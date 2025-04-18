@@ -2,7 +2,7 @@ body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   color: #111;
-  background-color: black;
+  background-color: var(--cor-11);
 }
 
 ul {

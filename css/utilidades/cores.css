@@ -19,6 +19,24 @@
   --cor-p5: #332200;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --cor-0: #000000;
+    --cor-1: #111111;
+    --cor-2: #2e2e2e;
+    --cor-3: #404040;
+    --cor-4: #595959;
+    --cor-5: #717171;
+    --cor-6: #9C9C9C;
+    --cor-7: #B2B2B2;
+    --cor-8: #CCCCCC;
+    --cor-9: #DEDEDE;
+    --cor-10: #EDEDED;
+    --cor-11: #F7F7F7;
+    --cor-12: #ffffff;
+  }
+}
+
 
 .cor-0 {
   color: var(--cor-0);
